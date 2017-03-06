@@ -1,0 +1,15 @@
+---
+kind: "operation"
+client: "atomist 1.2"
+generator:
+  name: "MyFirstGenerator"
+  group: "this-is-our-test"
+  artifact: "cd-rug-04"
+  version: "0.1.0"
+  origin:
+    repo: "https://github.com/atomisthqa/cd-rug-04.git"
+    branch: "master"
+    sha: "1b50c6a*"
+  parameters:
+    - "project_name": "cd-rug-05"
+
